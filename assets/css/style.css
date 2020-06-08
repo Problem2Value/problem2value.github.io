@@ -842,7 +842,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #e9c46a;
+  background: #e76f51;
   background-size: cover;
   padding: 40px 0;
 }
@@ -907,7 +907,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #2a9d8f;
+  background: #264653;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
