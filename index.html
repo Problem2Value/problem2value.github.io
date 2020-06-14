@@ -53,8 +53,9 @@
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <!-- cookiealert.css -->
-  <link href="assets/css/cookiealert.css" rel="stylesheet">
+
+  <!-- Cookie Consent CSS File -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -703,16 +704,6 @@
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
-  <div class="alert alert-dismissible text-center cookiealert" role="alert">
-    <div class="cookiealert-container">
-        <b>Do you like cookies?</b> &#x1F36A; We use cookies to ensure you get the best experience on our website. <a href="http://cookiesandyou.com/" target="_blank">Learn more</a>
-  
-        <button type="button" class="btn btn-primary btn-sm acceptcookies" aria-label="Close">
-            I agree
-        </button>
-    </div>
-  </div>
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -725,8 +716,20 @@
   <script src="assets/vendor/superfish/superfish.min.js"></script>
   <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
 
-  <!-- cookiealert -->
-  <script src="assets/js/cookiealert-standalone.js"></script>
+  <!-- cookie sonsent -->
+  <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+  <script>
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#1d8a8a"
+      },
+      "button": {
+        "background": "#62ffaa"
+      }
+    }
+  });
+  </script>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
