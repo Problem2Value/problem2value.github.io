@@ -31,20 +31,15 @@
         <!--         <li>
           <a href="#"><img src="images/icon-twitter.png" /></a>
         </li> -->
-        <li>
-          <a href="https://www.linkedin.com/company/problem2value"
-            ><img src="images/ico-linkedin.png"
-          /></a>
+        <li onclick=openSocial('https://www.linkedin.com/company/problem2value')>
+          <img src="images/ico-linkedin.png" />
         </li>
-        <li>
-          <a href="https://medium.com/@geertwlclaes"
-            ><img src="images/ico-medium.png"
-          /></a>
+        <li
+          onclick=openSocial('https://medium.com/@geertwlclaes')>
+          <img src="images/ico-medium.png" />
         </li>
-        <li>
-          <a href="https://www.instagram.com/problem2value"
-            ><img src="images/ico-instagram.png"
-          /></a>
+        <li onclick=openSocial('https://www.instagram.com/problem2value')>
+          <img src="images/ico-instagram.png" />
         </li>
       </ul>
     </nav>
@@ -125,6 +120,12 @@
         // Helper function to Fill and Center the HTML5 Video
         jQuery("video,object").maximage("maxcover");
       });
+    </script>
+
+    <script type="text/javascript">
+      function openSocial(url) {
+          var win = window.open(url, '_blank');
+      }
     </script>
   </body>
 </html>
