@@ -31,14 +31,13 @@
         <!--         <li>
           <a href="#"><img src="images/icon-twitter.png" /></a>
         </li> -->
-        <li onclick=openSocial('https://www.linkedin.com/company/problem2value')>
+        <li onclick="openLinkedIn()">
           <img src="images/ico-linkedin.png" />
         </li>
-        <li
-          onclick=openSocial('https://medium.com/@geertwlclaes')>
+        <li onclick="openMedium()">
           <img src="images/ico-medium.png" />
         </li>
-        <li onclick=openSocial('https://www.instagram.com/problem2value')>
+        <li onclick="openInstagram()">
           <img src="images/ico-instagram.png" />
         </li>
       </ul>
@@ -123,8 +122,22 @@
     </script>
 
     <script type="text/javascript">
-      function openSocial(url) {
-          var win = window.open(url, '_blank');
+      function openLinkedIn() {
+        var win = window.open(
+          "https://www.linkedin.com/company/problem2value",
+          "_blank"
+        );
+      }
+
+      function openMedium() {
+        var win = window.open("https://medium.com/@geertwlclaes'", "_blank");
+      }
+
+      function openInstagram() {
+        var win = window.open(
+          "https://www.instagram.com/problem2value",
+          "_blank"
+        );
       }
     </script>
   </body>
